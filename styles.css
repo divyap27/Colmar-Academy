@@ -12,9 +12,7 @@
 }
 
 
-/* 
-Navigation bar 
-*/
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -60,9 +58,7 @@ nav a {
     display: none;
 }
 
-/* 
-Hero section 
-*/
+
 .hero-container {
     background-color: var(--lighter-grey);
     display: flex;
@@ -99,16 +95,14 @@ Hero section
     text-decoration: none;
 }
 
-/* 
-News section
-*/
+
 .news-container {
     display: grid;
     grid-template-columns: 3fr 2fr;
     color: var(--dark-grey);
 }
 
-/**** News left ****/
+
 
 .news-left {
     display: flex;
@@ -132,7 +126,7 @@ News section
     font-size: 80%;
 }
 
-/**** News right ****/
+
 
 .news-right {
     display: flex;
@@ -177,14 +171,11 @@ News section
     margin: 0 0 2% 0;
 }
 
-/**** Hide mobile images ****/
 .orientation-left-mobile, .campus-left-mobile, .guest-left-mobile {
     display: none;
 }
 
-/* 
-Start learning section 
-*/
+
 .sl-container {
     background-color: var(--lightest-grey);
     padding: 2% 5% 8% 5%;
@@ -196,7 +187,6 @@ Start learning section
     padding: 4%;
 }
 
-/**** Start learning grid ****/
 .sl-grid-wrapper {
     display: grid;
     /* grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); */
@@ -209,7 +199,7 @@ Start learning section
 }
 
 
-/**** Start learning individual card****/
+
 .sl-grid-wrapper > * {
     display: flex;
     flex-direction: column;
@@ -233,9 +223,7 @@ Start learning section
     display: none;
 }
 
-/* 
-Thesis exhibit section 
-*/
+
 .thesis-container > h1 {
     color: var(--dark-grey);
     text-align: center;
@@ -248,7 +236,7 @@ Thesis exhibit section
 }
 
 
-/**** Urban container ****/
+
 .urban-container {
     display: flex;
     flex-direction: column;
@@ -272,7 +260,7 @@ Thesis exhibit section
     color: var(--dark-grey);
 }
 
-/**** Other thesis container ****/
+
 .other-thesis-container {
     display: flex;
     flex-direction: column;
@@ -307,9 +295,7 @@ Thesis exhibit section
     margin: 5% 8%;
 }
 
-/* 
-Footer 
-*/
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -339,7 +325,7 @@ footer li {
 }
 
 
-/* Mobile responsiveness */
+
 @media only screen and (max-width: 580px) {
     /* Navigation bar */
     nav > .logo, nav > ul {
@@ -354,7 +340,7 @@ footer li {
         margin: 2% 3%;
     }
 
-    /* Hero section */
+    
     .hero-container {
         flex-direction: column;
         padding: 0 0 5% 0;
@@ -370,7 +356,7 @@ footer li {
         font-size: 100%;
     } 
 
-    /* News section */
+    
     .news-left {
         display: none;
     }
@@ -401,7 +387,7 @@ footer li {
         background-color: white;
     }
 
-    /* Start learning section */
+    
     .sl-container {
         background-color: white;
     }
@@ -427,7 +413,7 @@ footer li {
         padding: 5%;
     }
 
-    /* Thesis exhibit section */
+   
     .urban-info, .other-thesis-container {
         display: none;
     }
@@ -436,7 +422,6 @@ footer li {
         grid-template-columns: 1fr;
     }
 
-    /* Footer section */
     footer {
         padding: 10% 0 2%;
     }
