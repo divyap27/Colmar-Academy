@@ -26,6 +26,6 @@ CSS Grid & Flexbox: Layouts built with modern CSS techniques.
 # Technologies Used
 HTML5
 
-CSS3 (Flexbox and Grid)
+CSS3
 
-Google Fonts (Roboto)
+Google Fonts
